@@ -1,0 +1,30 @@
+.tank-diagram {
+  margin: 1.5rem auto;
+  text-align: center;
+}
+
+.leds {
+  display: flex;
+  flex-direction: column-reverse;
+  width: 100px;
+  margin: auto;
+}
+
+.led {
+  height: 25px;
+  margin: 5px 0;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.led.on {
+  background-color: #2196f3;
+}
+
+.led.off {
+  background-color: #ccc;
+}
